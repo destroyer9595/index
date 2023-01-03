@@ -1,0 +1,14 @@
+body
+{
+    background-color: crimson;
+}
+#pagecontainer
+{
+    background-color: darkcyan;
+    text-align: center;
+    width: 100%;
+    left: 0%;
+    top: 30%;
+    position: absolute;
+}
+
