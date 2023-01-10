@@ -1,14 +1,26 @@
-body
-{
-    background-color: crimson;
-}
-#pagecontainer
-{
-    background-color: darkcyan;
-    text-align: center;
-    width: 100%;
-    left: 0%;
-    top: 30%;
-    position: absolute;
+body {
+    background-color: grey;
+    overflow: hidden;
 }
 
+#page_container {
+    text-align: center;
+    width: 100%;
+    left: 0;
+    top: 15%;
+    position: absolute;
+    padding-left: 10%;
+}
+
+#page {
+    background-color: white;
+    width: 80%;
+    height: 1000px;
+    font-size: 200%;
+    font-family: alexana;
+}
+
+@font-face {
+    font-family: alexana;
+    src: url(Alexana\ Neue.ttf);
+}
